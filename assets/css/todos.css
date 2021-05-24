@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+body {
+	font-family: Robot;
+	background-image: linear-gradient(to right,rgb(0, 195, 255) , white);
+	/* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+
+.glow {
+	font-size: 80px;
+	text-align: center;
+	font-family: 'Warnes', cursive;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	background: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.fa-plus {
+	float: right;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+li span {
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+input {
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+#container {
+	width: 360px;
+	margin: 100px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
